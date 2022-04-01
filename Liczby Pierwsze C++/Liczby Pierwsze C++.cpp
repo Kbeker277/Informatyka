@@ -5,22 +5,38 @@
 using namespace std;
 int main()
 {
-    cout << "Hello World!\n";
 
-    int l;
-    l = 0;
-
+    int l = 0;
     int p = 2;
-
     int x;
-    cout << "podaj liczbę";
+    int skip = 0;
+    
+    cout << "podaj ile liczb:  ";
+    
     cin >> x;
 
-    while(l < x) {
-        l = l + 1;
-        x / l = 0;
-
+    while (l < x)
+    {
+        skip = 0;
+        for (int d = 2; d <= p - 1; d++) 
+        {
+            
+            if (p % d == 0) 
+            {
+                skip = 1;
+            }
+            
+        }
+        if (skip == 0) 
+        {
+            cout << p << ", ";
+            l = l + 1;
+        }
+         p = p + 1;
+        
     }
+
+}
     
 
 
