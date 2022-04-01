@@ -18,6 +18,7 @@ int main()
     while (l < x)
     {
         skip = 0;
+        
         for (int d = 2; d <= p - 1; d++) 
         {
             
@@ -32,7 +33,8 @@ int main()
             cout << p << ", ";
             l = l + 1;
         }
-         p = p + 1;
+         
+        p = p + 1;
         
     }
 
