@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+H:\informatyka\Szyfr Cezara\ConsoleApplication1\ConsoleApplication1.cpp(61,3): warning C4551: wywołaniu funkcji brakuje listy argumentów
+H:\informatyka\Szyfr Cezara\ConsoleApplication1\ConsoleApplication1.cpp(42,6): warning C4101: "i": lokalna zmienna, do której nie istnieje odwołanie
+  ConsoleApplication1.vcxproj -> H:\informatyka\Szyfr Cezara\Debug\ConsoleApplication1.exe
