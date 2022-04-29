@@ -18,7 +18,8 @@ int main()
 
     int i = a * x;
 
-    while(a != x) {
+    while(a != x) 
+    {
         
         
         if (a > x) 
