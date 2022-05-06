@@ -10,7 +10,9 @@ int main()
 
     cout << "Ile liczb wypisać :  \n";
     cin >> c;
-
+}
+int Ciag(int c , int l0 , int l1 , int lf)
+{
     for (int i = 0; i <= c; i++) {
         if (i > 1) {
             lf = l0 + l1;
@@ -22,7 +24,4 @@ int main()
         }
         cout << lf << endl;
     }
-
-  
 }
-

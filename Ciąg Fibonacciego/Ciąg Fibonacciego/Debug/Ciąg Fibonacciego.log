@@ -1,2 +1,3 @@
 ﻿  Ciąg Fibonacciego.cpp
-  Ciąg Fibonacciego.vcxproj -> H:\informatyka\Ciąg Fibonacciego\Debug\Ciąg Fibonacciego.exe
+H:\informatyka\Ciąg Fibonacciego\Ciąg Fibonacciego\Ciąg Fibonacciego.cpp(9,9): warning C4101: "lf": lokalna zmienna, do której nie istnieje odwołanie
+H:\informatyka\Ciąg Fibonacciego\Ciąg Fibonacciego\Ciąg Fibonacciego.cpp(27): error C4716: "Ciag": musi zwracać wartość
