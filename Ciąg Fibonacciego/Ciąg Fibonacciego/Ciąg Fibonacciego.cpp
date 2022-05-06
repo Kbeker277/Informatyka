@@ -3,24 +3,24 @@ using namespace std;
 
 int main()
 {
-    int n;
-    int f0 = 0;
-    int f1 = 1;
-    int f;
+    int c;
+    int l0 = 0;
+    int l1 = 1;
+    int lf;
 
     cout << "Ile liczb wypisać :  \n";
-    cin >> n;
+    cin >> c;
 
-    for (int i = 0; i <= n; i++) {
+    for (int i = 0; i <= c; i++) {
         if (i > 1) {
-            f = f0 + f1;
-            f0 = f1;
-            f1 = f;
+            lf = l0 + l1;
+            l0 = l1;
+            l1 = lf;
         }
         else {
-            f = i;
+            lf = i;
         }
-        cout << f << endl;
+        cout << lf << endl;
     }
 
   
